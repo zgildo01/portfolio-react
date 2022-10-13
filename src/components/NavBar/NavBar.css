@@ -3,20 +3,20 @@ ul {
   margin: 0;
   padding: 0;
   background-color: black;
-  border: 0.25rem pink solid;
+  border: 0.25rem #ff65bd solid;
   border-top: none;
   height: 4rem;
-  box-shadow: 0.5rem 0.5rem 0.5rem #e1a2ad;
+  box-shadow: 0.5rem 0.75rem 1rem #ff65bd;
 }
 
 #home {
   display: block;
   margin: 1rem;
   float: left;
-  color: pink;
+  color: #ffe6ff;
   text-decoration: none;
   font-size: 1.25rem;
-  text-shadow: 0.5rem 0.5rem 0.75rem #e1a2ad;
+  text-shadow: 0.5rem 0.5rem 0.75rem #ff65bd;
 }
 
 li {
@@ -29,8 +29,8 @@ li {
   display: block;
   margin: 1rem;
   float: right;
-  color: pink;
+  color: #ffe6ff;
   text-decoration: none;
   font-size: 1.25rem;
-  text-shadow: 0.5rem 0.5rem 0.75rem #e1a2ad;
+  text-shadow: 0.5rem 0.5rem 0.75rem #ff65bd;
 }
