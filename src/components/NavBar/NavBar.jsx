@@ -1,3 +1,4 @@
+import './NavBar.css'
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
@@ -6,6 +7,7 @@ const NavBar = () => {
       <nav>
         <Link
           to='/'
+          id='home'
         >
           Zeus
         </Link>
@@ -14,6 +16,7 @@ const NavBar = () => {
           <li>
             <Link
               to='/about'
+              className='nav-link'
             >
               About
             </Link>
@@ -22,6 +25,7 @@ const NavBar = () => {
           <li>
             <Link
               to='/contact'
+              className='nav-link'
             >
               Contact
             </Link>
@@ -30,6 +34,7 @@ const NavBar = () => {
           <li>
             <Link
               to='/projects'
+              className='nav-link'
             >
               Projects
             </Link>
@@ -38,11 +43,12 @@ const NavBar = () => {
           <li>
             <Link
               to='/resume'
+              className='nav-link'
             >
               Resume
             </Link>
           </li>
-          
+
         </ul>
       </nav>
     </>

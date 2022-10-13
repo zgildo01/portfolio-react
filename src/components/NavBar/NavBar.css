@@ -1,0 +1,36 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  border: 0.25rem pink solid;
+  border-top: none;
+  height: 4rem;
+  box-shadow: 0.5rem 0.5rem 0.5rem #e1a2ad;
+}
+
+#home {
+  display: block;
+  margin: 1rem;
+  float: left;
+  color: pink;
+  text-decoration: none;
+  font-size: 1.25rem;
+  text-shadow: 0.5rem 0.5rem 0.75rem #e1a2ad;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+  text-align: center;
+}
+
+.nav-link {
+  display: block;
+  margin: 1rem;
+  float: right;
+  color: pink;
+  text-decoration: none;
+  font-size: 1.25rem;
+  text-shadow: 0.5rem 0.5rem 0.75rem #e1a2ad;
+}
