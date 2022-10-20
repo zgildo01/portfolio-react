@@ -4,7 +4,9 @@ const Home = () => {
   return (
     <>
       <div class="sign">
-      <span class="fast-flicker">Z</span>e<span class="flicker">u</span>s
+      <span class="fast-flicker">Zeus</span>
+      <span class="flicker">||Software||</span>
+      <span class="fast-flicker">Engineer</span>
     </div>
     </>
   );
