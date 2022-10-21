@@ -7,7 +7,7 @@ const About = () => {
         <h1>About</h1>
         <div id="about-body">
           <div id="pfp-name-title">
-            <img src='https://imgur.com/Z9WdZgG.png' alt='pic of Zeus' id='pic-of-me'/>
+            <img src="../img/picOfMe.png" alt='pic of Zeus' id='pic-of-me'/>
             <p>Zeus Zaragoza-Gildo</p>
             <p>Software Engineer</p>
           </div>

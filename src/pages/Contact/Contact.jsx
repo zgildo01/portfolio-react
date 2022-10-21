@@ -28,8 +28,12 @@ const Contact = () => {
           </div>
         </form>
         <div id='contact-icons'>
-          <img />
-          <img />
+          <a href='https://github.com/zgildo01'>
+            <img src='../img/gitHubPink.png'/>
+          </a>
+          <a href='https://www.linkedin.com/in/zgildo01/'>
+            <img src='../img/linkedinPink.png'/>
+          </a>
         </div>
       </div>
     </>
