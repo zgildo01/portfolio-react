@@ -29,10 +29,10 @@ const Contact = () => {
         </form>
         <div id='contact-icons'>
           <a href='https://github.com/zgildo01'>
-            <img src='../img/gitHubPink.png'/>
+            <img src='../img/githubPink.png' alt='github logo' />
           </a>
           <a href='https://www.linkedin.com/in/zgildo01/'>
-            <img src='../img/linkedinPink.png'/>
+            <img src='../img/linkedinPink.png' alt='linked in logo' />
           </a>
         </div>
       </div>
