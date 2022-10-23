@@ -11,7 +11,7 @@ const NavBar = () => {
         >
           Zeus
         </Link>
-        <ul>
+        <ul id='nav-ul'>
 
           <li>
             <Link
