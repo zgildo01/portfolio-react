@@ -1,18 +1,11 @@
 import './Projects.css'
 import {projects} from '../../data/projects'
+import ProjectsList from '../../components/ProjectsList/ProjectsList';
 
 const Projects = () => {
   return (
     <>
-      <div id='main'>
-        <ul>
-        {projects.map((project) =>
-          <li key={project.title}>
-            {project.title}
-          </li>
-        )}
-        </ul>
-      </div>
+      <ProjectsList projects={projects} />
     </>
   );
 }
