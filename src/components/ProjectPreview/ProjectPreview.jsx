@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import {hyphenator} from '../../utilities/hypenateWords.js'
 
 const ProjectPreview = ({project}) => {
-let url = "/" + hyphenator(project.title)
+let url = hyphenator(project.title)
 
   return (
     <>

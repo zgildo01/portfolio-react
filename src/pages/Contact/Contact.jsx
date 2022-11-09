@@ -6,25 +6,25 @@ const Contact = () => {
     <>
       <div id='main'>
         <h1>Contact Me</h1>
-        <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
-          <label for="Name" class="fcf-label">Your name</label>
-            <div class="fcf-input-group">
-              <input type="text" id="Name" name="Name" class="fcf-form-control" required />
+        <form id="fcf-form-id" className="fcf-form-class" method="post" action="contact-form-process.php">
+          <label htmlFor="Name" className="fcf-label">Your name</label>
+            <div className="fcf-input-group">
+              <input type="text" id="Name" name="Name" className="fcf-form-control" required />
             </div>
-            <div class="fcf-form-group">
-          <label for="Email" class="fcf-label">Your email address</label>
-                <div class="fcf-input-group">
-                  <input type="email" id="Email" name="Email" class="fcf-form-control" required />
+            <div className="fcf-form-group">
+          <label htmlFor="Email" className="fcf-label">Your email address</label>
+                <div className="fcf-input-group">
+                  <input type="email" id="Email" name="Email" className="fcf-form-control" required />
                 </div>
             </div>
-          <div class="fcf-form-group">
-              <label for="Message" class="fcf-label">Your message</label>
-              <div class="fcf-input-group">
-                  <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+          <div className="fcf-form-group">
+              <label htmlFor="Message" className="fcf-label">Your message</label>
+              <div className="fcf-input-group">
+                  <textarea id="Message" name="Message" className="fcf-form-control" rows="6" maxLength="3000" required></textarea>
               </div>
           </div>
-          <div class="fcf-form-group">
-              <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+          <div className="fcf-form-group">
+              <button type="submit" id="fcf-button" className="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
           </div>
         </form>
         <div id='contact-icons'>
