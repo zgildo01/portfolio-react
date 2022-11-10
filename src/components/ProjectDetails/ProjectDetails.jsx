@@ -3,11 +3,15 @@ import { useParams } from 'react-router-dom';
 
 const ProjectDetails = () => {
   let projectName = useParams()
-  let project = findProject(projectName)
+  let project = findProject(projectName.url)
   
   return (
     <>
-      <h1>{project.title}</h1>
+    <div id="main">
+      <h1>{project[0].title}</h1>
+      <h3>{project[0].description}</h3>
+      <h2>XD</h2>
+    </div>
     </>
   );
 }
