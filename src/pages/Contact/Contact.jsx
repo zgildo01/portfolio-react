@@ -1,31 +1,40 @@
+import { useRef } from 'react';
+import emailjs from "emailjs-com"
 import './Contact.css'
 
 
 const Contact = () => {
+  const form = useRef()
+  const sendEmail = (e) => {
+    e.preventDefault()
+    
+    emailjs.sendForm(
+      process.env.REACT_APP_SERVICE_ID,
+      process.env.REACT_APP_TEMPLATE_ID,
+      form.current,
+      process.env.REACT_APP_PUBLIC_KEY
+    ).then(
+      result => console.log(result.text),
+      error => console.log(error.text)
+    )
+    e.target.reset()
+  }
+
   return (
     <>
       <div id='main'>
         <h1>Contact Me</h1>
-        <form id="fcf-form-id" className="fcf-form-class" method="post" action="contact-form-process.php">
-          <label htmlFor="Name" className="fcf-label">Your name</label>
-            <div className="fcf-input-group">
-              <input type="text" id="Name" name="Name" className="fcf-form-control" required />
-            </div>
-            <div className="fcf-form-group">
-          <label htmlFor="Email" className="fcf-label">Your email address</label>
-                <div className="fcf-input-group">
-                  <input type="email" id="Email" name="Email" className="fcf-form-control" required />
-                </div>
-            </div>
-          <div className="fcf-form-group">
-              <label htmlFor="Message" className="fcf-label">Your message</label>
-              <div className="fcf-input-group">
-                  <textarea id="Message" name="Message" className="fcf-form-control" rows="6" maxLength="3000" required></textarea>
-              </div>
-          </div>
-          <div className="fcf-form-group">
-              <button type="submit" id="fcf-button" className="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
-          </div>
+        <form 
+          ref={form} 
+          onSubmit={sendEmail}
+        >
+          <label>Name</label>
+          <input type="text" name="user_name" required />
+          <label>Email</label>
+          <input type="email" name="user_email" required />
+          <label>Message</label>
+          <textarea name="message" required />
+          <input type="submit"  value="Send"/>
         </form>
         <div id='contact-icons'>
           <a href='https://github.com/zgildo01'>
