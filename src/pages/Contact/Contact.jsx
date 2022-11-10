@@ -9,10 +9,10 @@ const Contact = () => {
     e.preventDefault()
     
     emailjs.sendForm(
-      process.env.REACT_APP_SERVICE_ID,
-      process.env.REACT_APP_TEMPLATE_ID,
+      'service_j6zf7h7',
+      'template_uekkgda',
       form.current,
-      process.env.REACT_APP_PUBLIC_KEY
+      'naFD_kTumh3JDlxLu'
     ).then(
       result => console.log(result.text),
       error => console.log(error.text)
