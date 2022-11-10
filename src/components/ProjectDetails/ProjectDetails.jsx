@@ -9,8 +9,19 @@ const ProjectDetails = () => {
     <>
     <div id="main">
       <h1>{project[0].title}</h1>
-      <h3>{project[0].description}</h3>
-      <h2>XD</h2>
+      <div id="img-link">
+        <a href={project[0].deploymentLink}>
+          <h4>Click Me to Visit!</h4>
+          <img 
+            src={project[0].image} 
+            alt={project[0].title + " screenshot"} 
+          />
+        </a>
+      </div>
+      <h2>{project[0].description}</h2>
+      <a href={project[0].repositoryLink}>
+        <h3>Click me to visit the repository!</h3>
+      </a>
     </div>
     </>
   );
