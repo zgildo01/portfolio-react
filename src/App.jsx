@@ -7,6 +7,7 @@ import Projects from './pages/Projects/Projects';
 import Resume from './pages/Resume/Resume';
 import NavBar from './components/NavBar/NavBar';
 import ProjectDetails from './components/ProjectDetails/ProjectDetails';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
         element={<ProjectDetails />}
       />
     </Routes>
+    <Footer />
     </>
   );
 }
