@@ -12,7 +12,6 @@ const NavBar = () => {
           Zeus
         </Link>
         <ul id='nav-ul'>
-
           <li>
             <Link
               to='/about'
@@ -21,7 +20,6 @@ const NavBar = () => {
               About
             </Link>
           </li>
-
           <li>
             <Link
               to='/contact'
@@ -30,7 +28,6 @@ const NavBar = () => {
               Contact
             </Link>
           </li>
-
           <li>
             <Link
               to='/projects'
@@ -39,7 +36,6 @@ const NavBar = () => {
               Projects
             </Link>
           </li>
-
           <li>
             <Link
               to='/resume'
@@ -48,7 +44,6 @@ const NavBar = () => {
               Resume
             </Link>
           </li>
-
         </ul>
       </nav>
     </>

@@ -1,0 +1,9 @@
+#main-body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  border: 0.25rem #ff65bd solid;
+  border-top: none;
+  height: 4rem;
+  box-shadow: 0.5rem 0.75rem 1rem #ff65bd;
+}
