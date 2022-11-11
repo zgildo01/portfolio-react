@@ -1,4 +1,4 @@
-#main-body {
+.body {
   margin: 0;
   padding: 0;
   background-color: black;
@@ -7,9 +7,11 @@
   height: 4rem;
   box-shadow: 0.5rem 0.75rem 1rem #ff65bd;
   width: 100%;
+  display: flex;
+  align-self: center;
 }
 
-#text-container {
+.container {
   text-align: center; 
   color: #ffe6ff;
 }
