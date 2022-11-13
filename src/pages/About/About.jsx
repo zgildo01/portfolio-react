@@ -4,7 +4,15 @@ const About = () => {
   return (
     <>
       <div className={styles.main}>
-        <h1>About</h1>
+        <div className="sign">
+          <div className="fastflicker">
+            <h1 className={styles.title}>About</h1>
+            <hr 
+            color='#ff65bd'
+            width='80%'
+          />
+          </div>
+        </div>
         <div className={styles.aboutBody}>
           <div className={styles.picContainer}>
             <img src="../img/picOfMe.png" alt='pic of Zeus' className={styles.pic}/>

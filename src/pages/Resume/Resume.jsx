@@ -6,7 +6,7 @@ const Resume = () => {
     <div className={styles.main}>
       <div className='sign'>
         <div className='fastflicker'>
-          <h1 id='resume-title'>Resume</h1>
+          <h1 className={styles.title}>Resume</h1>
         </div>
       </div>
       <div  className={styles.container}>

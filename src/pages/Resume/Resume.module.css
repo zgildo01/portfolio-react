@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
   color: #ffe6ff;
-  font-size: 2.25rem;
 }
 
 .container {
@@ -35,4 +34,8 @@
 
 img {
   padding: 0.25rem;
+}
+
+.title {
+  font-size: 5rem;
 }
