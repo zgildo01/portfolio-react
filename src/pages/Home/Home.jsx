@@ -3,10 +3,12 @@ import styles from './Home.module.css'
 const Home = () => {
   return (
     <>
-      <div className={styles.sign}>
-      <span className={styles.fastflicker}>Zeus</span>
-      <span className={styles.flicker}>||Software||</span>
-      <span className={styles.fastflicker}>Engineer</span>
+    <div className={styles.main}>
+      <div className='sign'>
+        <span className="fastflicker">Zeus</span>
+        <span className="flicker">||Software||</span>
+        <span className="fastflicker">Engineer</span>
+      </div>
     </div>
     </>
   );

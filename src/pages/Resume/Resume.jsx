@@ -4,9 +4,9 @@ const Resume = () => {
   return (
     <>
     <div className={styles.main}>
-      <div className={styles.sign}>
-        <div className={styles.fastflicker}>
-          <h1>Resume</h1>
+      <div className='sign'>
+        <div className='fastflicker'>
+          <h1 id='resume-title'>Resume</h1>
         </div>
       </div>
       <div  className={styles.container}>
