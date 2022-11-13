@@ -1,17 +1,17 @@
 .body {
   margin: 0;
   padding: 0;
-  background-color: black;
-  border: 0.25rem #ff65bd solid;
-  border-bottom: none;
-  max-height: 4rem;
-  box-shadow: 0.5rem 0.75rem 1rem #ff65bd;
   width: 100%;
-  flex: 1 0 auto;
-  flex-shrink: 0;
+  max-height: 4rem;
+  background-color: black;
+  box-shadow: 0 0 2rem #ff65bd;
+  border: 0.25rem #ff65bd solid;
+  border-left: none;
+  border-right: none;
 }
 
 .container {
   text-align: center; 
   color: #ffe6ff;
+  text-shadow: 0rem 0.4rem 0.75rem #ff65bd;
 }
