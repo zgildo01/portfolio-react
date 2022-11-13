@@ -1,14 +1,16 @@
-import './Resume.css'
+import styles from './Resume.module.css'
 
 const Resume = () => {
   return (
     <>
-    <div id='main'>
-      <h1>Resume</h1>
-      <div  id='resume-container'>
-        <div id='resume-item-container'>
+    <div className={styles.main}>
+      <div className={styles.sign}>
+        <div className={styles.fastflicker}><h1>Resume</h1></div>
+      </div>
+      <div  className={styles.container}>
+        <div className={styles.itemContainer}>
           <h3>Software Engineering Fellow - General Assembly</h3>
-          <ul id='resume-ul'>
+          <ul className={styles.ul}>
             <li className='resume-li'>
               <p>Developed several fully responsive, diverse applications using technologies such as the MEN stack, JavaScript, Python, HTML and CSS</p>
             </li>
@@ -34,7 +36,7 @@ const Resume = () => {
             </li>
           </ul>
         </div>
-        <div>
+        <div className={styles.downloadContainer}>
           <h2>Interested?</h2>
           <p>Feel free to <a href='../public/Zeus-Resume.docx' download>download</a> a copy of my resume!</p>
         </div>
