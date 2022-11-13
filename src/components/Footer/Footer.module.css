@@ -4,7 +4,7 @@
   width: 100%;
   max-height: 4rem;
   background-color: black;
-  box-shadow: 0 0 2rem #ff65bd;
+  box-shadow: 0 -0.5rem 3rem #ff65bd;
   border: 0.25rem #ff65bd solid;
   border-left: none;
   border-right: none;
@@ -12,6 +12,5 @@
 
 .container {
   text-align: center; 
-  color: #ffe6ff;
-  text-shadow: 0rem 0.4rem 0.75rem #ff65bd;
+  color: rgba( 235 ,210 , 235, 1 );
 }
