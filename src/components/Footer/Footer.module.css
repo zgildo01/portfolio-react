@@ -4,11 +4,11 @@
   background-color: black;
   border: 0.25rem #ff65bd solid;
   border-bottom: none;
-  height: 4rem;
+  max-height: 4rem;
   box-shadow: 0.5rem 0.75rem 1rem #ff65bd;
   width: 100%;
-  display: flex;
-  align-self: center;
+  flex: 1 0 auto;
+  flex-shrink: 0;
 }
 
 .container {

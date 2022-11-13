@@ -1,31 +1,8 @@
-body {
-  background-color: #141114;
-  background-image: linear-gradient(335deg, black 23px, transparent 23px),
-    linear-gradient(155deg, black 23px, transparent 23px),
-    linear-gradient(335deg, black 23px, transparent 23px),
-    linear-gradient(155deg, black 23px, transparent 23px);
-  background-size: 58px 58px;
-  background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
-}
-
 .sign {
-  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 50%;
-  height: 50%;
-  background-image: radial-gradient(
-    ellipse 50% 35% at 50% 50%,
-    #6b1839,
-    transparent
-  );
-  transform: translate(-50%, -50%);
-  letter-spacing: 2;
-  left: 50%;
-  top: 50%;
-  font-family: "Clip";
   text-transform: uppercase;
   font-size: 6em;
   color: #ffe6ff;
@@ -33,6 +10,7 @@ body {
     -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
     0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
   animation: shine 2s forwards, flicker 3s infinite;
+  height: 100%;
 }
 
 @keyframes blink {
