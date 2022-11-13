@@ -1,12 +1,12 @@
-import './Home.css'
+import styles from './Home.module.css'
 
 const Home = () => {
   return (
     <>
-      <div className="sign">
-      <span className="fast-flicker">Zeus</span>
-      <span className="flicker">||Software||</span>
-      <span className="fast-flicker">Engineer</span>
+      <div className={styles.sign}>
+      <span className={styles.fastflicker}>Zeus</span>
+      <span className={styles.flicker}>||Software||</span>
+      <span className={styles.fastflicker}>Engineer</span>
     </div>
     </>
   );
