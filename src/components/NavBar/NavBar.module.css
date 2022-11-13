@@ -2,9 +2,7 @@ nav {
   margin: 0;
   padding: 0;
   background-color: black;
-  border: 0.25rem #ff65bd solid;
-  border-left: none;
-  border-right: none;
+  border-bottom: 0.25rem #ff65bd solid;
   height: 4rem;
   box-shadow: 0rem 0.3rem 2rem #ff65bd;
   width: 100%;

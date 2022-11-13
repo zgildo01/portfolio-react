@@ -1,15 +1,9 @@
-#main {
+.main {
   text-align: center;
   color: #ffe6ff;
 }
 
-h1 {
-  text-shadow: 0.5rem 0.75rem 1rem #ff2483;
-  margin-top: 2rem;
-  font-size: 4rem;
-}
-
-#about-body {
+.aboutBody {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +12,7 @@ h1 {
   font-size: 1.5rem;
 }
 
-#pic-of-me {
+.pic {
   border-radius: 100rem;
   border: 3px solid #ff2483;
 }
