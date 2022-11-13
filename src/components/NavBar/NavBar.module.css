@@ -32,7 +32,7 @@ li {
 
 .home:hover {
   color: rgba( 235 ,210 , 235, 1 );
-  box-shadow: 0 2rem 5rem #ff65bd;
+  box-shadow: 0 .025rem 5rem #ff65bd;
 }
 
 .link {
@@ -46,5 +46,5 @@ li {
 
 .link:hover {
   color: rgba( 235 ,210 , 235, 1 );
-  box-shadow: 0 2rem 5rem #ff65bd;
+  box-shadow: 0 .025rem 5rem #ff65bd;
 }

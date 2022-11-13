@@ -17,7 +17,7 @@
     -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
     0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
   animation: shine 2s forwards, flicker 3s infinite;
-  text-decoration: underline;
+  
 }
 
 @keyframes blink {
@@ -192,4 +192,25 @@
   padding: 0;
   background-color: black;
   box-shadow: 0rem 0.25rem 1.5rem #ff65bd;
+}
+
+.downloadContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.a {
+  margin-top: 0.5rem;
+  border-radius: 50%;
+}
+
+.a:hover {
+  background-color: rgba( 255, 101, 189, 0.2 );
+  box-shadow: 0 0.25rem 5rem #ff65bd;
+}
+
+img {
+  padding: 0.25rem;
 }
