@@ -1,6 +1,4 @@
 .main {
-  height: 100%;
-  max-width: 100%;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -12,12 +10,34 @@
 }
 
 .aboutBody {
-  display: flex;
-  font-size: 1rem;
-  height: 100%;
+  background-color: black;
+  margin: 5rem;
+  margin-top: 0;
+  box-shadow: 0rem 0.25rem 1.5rem #ff65bd;
+  border: 0.25rem #ff65bd solid;
+}
+
+.picContainer {
+  margin: 1rem;
+  font-size: 1.5rem;
 }
 
 .pic {
   border-radius: 100rem;
-  border: 3px solid #ff2483;
+  border: 3px solid #ff65bd;
+  width: 30%;
+  height: 30%;
+}
+
+.textContainer {
+  margin: 1rem;
+  margin-top: 0;
+}
+
+.text {
+  font-size: 1.5rem;
+}
+
+.technologies {
+  font-size: 1.25rem;
 }

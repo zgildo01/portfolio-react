@@ -7,10 +7,6 @@ const About = () => {
         <div className="sign">
           <div className="fastflicker">
             <h1 className={styles.title}>About</h1>
-            <hr 
-            color='#ff65bd'
-            width='80%'
-          />
           </div>
         </div>
         <div className={styles.aboutBody}>
@@ -19,13 +15,40 @@ const About = () => {
             <p>Zeus Zaragoza-Gildo</p>
             <p>Software Engineer</p>
           </div>
+          <hr 
+            color='#ff65bd'
+            width='80%'
+          />
+
           <div className={styles.textContainer}>
             <div className={styles.text}>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>
+                Hey! <br />
+                Welcome to my portfolio! <br />
+                As you can see above, my name is Zeus. I am a 21 year old full stack developer who's had a passion for tech for as long as I can remember.<br />
+                Beyond software development, I also produce music as a hobby and love reading, my favorite author is Chuck Palahniuk and my favorite producer is Crywolf or Kaneda7!
+              </p>
             </div>
+            <hr 
+              color='#ff65bd'
+              width='50%'
+            />
             <div className={styles.technologies}>
-              <h4>Technologies</h4>
-              <p>||HTML||CSS||JavaScipt||Node.js||Mongoose||MongoDB||Express||Python||React||</p>
+              <h3>Technologies:</h3>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Node.js</li>
+                <li>Mongoose</li>
+                <li>MongoDB</li>
+                <li>SQL</li>
+                <li>Express</li>
+                <li>Python</li>
+                <li>React</li>
+                <li>Android Studio</li>
+                <li>Java</li>
+              </ul>
             </div>
           </div>
         </div>
