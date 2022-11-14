@@ -1,4 +1,3 @@
-import './Projects.css'
 import {projects} from '../../data/projects'
 import ProjectsList from '../../components/ProjectsList/ProjectsList';
 
