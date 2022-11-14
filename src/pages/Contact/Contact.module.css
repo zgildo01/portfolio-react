@@ -15,6 +15,7 @@
   width: 40%;
   display: flex;
   flex-direction: column;
+  align-items: center;
   border: 0.25rem #ff65bd solid;
   margin: 1rem 5rem;
   margin-top: 0;
@@ -38,10 +39,40 @@
 .input {
   border: 0.25rem #ff65bd solid;
   background-color: black;
-  transition: width 0.4s ease-in-out;
   color: #ffe6ff;
+  font-family: 'Playfair Display', serif;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 1.25rem;
 }
 
 .input:focus {
-  width: 100%;
+  box-shadow: 0rem 0.25rem 1.5rem #ff65bd;
+}
+
+.iconCont {
+  height: 7%;
+  margin: 0;
+}
+
+.icon {
+  height: 100%;
+}
+
+.btn {
+  width: 50%;
+  height: 2rem;
+  border: 0.1rem #ff65bd solid;
+  background-color: black;
+  color: #ffe6ff;
+  font-family: 'Playfair Display', serif;
+  cursor: pointer;
+}
+
+.btn:hover {
+  box-shadow: 0rem 0.25rem 1.5rem #ff65bd;
+}
+
+.btn:focus {
+  box-shadow: 0rem 0.25rem 1.5rem #ff65bd;
 }

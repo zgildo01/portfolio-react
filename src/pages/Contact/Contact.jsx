@@ -35,24 +35,24 @@ const Contact = () => {
         >
           <div className={styles.optionContainer}>
             <label className={styles.label}>Name</label>
-            <input className={styles.input} type="text" name="user_name" required />
+            <input className={styles.input} type="text" name="user_name" placeholder='Name..' required />
           </div>
           <div className={styles.optionContainer}>
             <label className={styles.label}>Email</label>
-            <input className={styles.input} type="email" name="user_email" required />
+            <input placeholder='Email..' className={styles.input} type="email" name="user_email" required />
           </div>
           <div className={styles.optionContainer}>
             <label className={styles.label}>Message</label>
-            <textarea className={styles.input} name="message" required />
+            <textarea placeholder='Message..' rows={5} className={styles.input} name="message" required />
           </div>
-          <input type="submit"  value="Send"/>
+          <input className={styles.btn} type="submit"  value="Send"/>
         </form>
-        <div id='contact-icons'>
-          <a href='https://github.com/zgildo01'>
-            <img src='../img/githubPink.png' alt='github logo' />
+        <div className={styles.iconCont}>
+          <a href='https://github.com/zgildo01' target={'_blank'} rel='noreferrer'>
+            <img className={styles.icon} src='../img/githubPink.png' alt='github logo' />
           </a>
-          <a href='https://www.linkedin.com/in/zgildo01/'>
-            <img src='../img/linkedinPink.png' alt='linked in logo' />
+          <a href='https://www.linkedin.com/in/zgildo01/' target={'_blank'} rel='noreferrer'>
+            <img className={styles.icon} src='../img/linkedinPink.png' alt='linked in logo' />
           </a>
         </div>
       </div>
