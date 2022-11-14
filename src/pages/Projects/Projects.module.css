@@ -1,0 +1,20 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #ffe6ff;
+  background-color: black;
+  border: 0.25rem #ff65bd solid;
+  margin: 5rem;
+  margin-top: 0;
+  padding: 0;
+  background-color: black;
+  box-shadow: 0rem 0.25rem 1.5rem #ff65bd;
+  font-size: 1rem;
+}
+
+.title {
+  font-size: 5rem;
+}

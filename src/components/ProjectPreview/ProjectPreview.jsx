@@ -1,15 +1,21 @@
 import { Link } from 'react-router-dom';
 import {hyphenator} from '../../utilities/hypenateWords.js'
+import styles from './ProjectPreview.module.css'
 
 const ProjectPreview = ({project}) => {
 let url = hyphenator(project.title)
 
   return (
     <>
-      <div id='main'>
-        <img 
-            src={project.image} 
-            alt={project.title}
+      <div className={styles.main}>
+        <img
+          className={styles.img}
+          src={project.image} 
+          alt={project.title}
+        />
+        <hr 
+          color='#ff65bd'
+          width='80%'
         />
         <section>
           <h3>
@@ -18,8 +24,8 @@ let url = hyphenator(project.title)
           <Link
             to={url}
           >
-            <button>
-                Learn more
+            <button className={styles.btn}>
+                Learn More
             </button>
           </Link>
         </section>
