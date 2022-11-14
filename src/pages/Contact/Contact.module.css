@@ -1,0 +1,47 @@
+.main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #ffe6ff;
+}
+
+.title {
+  font-size: 5rem;
+}
+
+.form {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  border: 0.25rem #ff65bd solid;
+  margin: 1rem 5rem;
+  margin-top: 0;
+  padding: 2rem;
+  background-color: black;
+  box-shadow: 0rem 0.25rem 1.5rem #ff65bd;
+  font-size: 1rem;
+}
+
+.optionContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.label {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.input {
+  border: 0.25rem #ff65bd solid;
+  background-color: black;
+  transition: width 0.4s ease-in-out;
+  color: #ffe6ff;
+}
+
+.input:focus {
+  width: 100%;
+}

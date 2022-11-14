@@ -22,18 +22,29 @@ const Contact = () => {
 
   return (
     <>
-      <div id='main'>
-        <h1>Contact Me</h1>
-        <form 
+      <div className={styles.main}>
+        <div className="sign">
+          <div className="fastflicker">
+            <h1 className={styles.title}>Contact Me</h1>
+          </div>
+        </div>
+        <form
+          className={styles.form}
           ref={form} 
           onSubmit={sendEmail}
         >
-          <label>Name</label>
-          <input type="text" name="user_name" required />
-          <label>Email</label>
-          <input type="email" name="user_email" required />
-          <label>Message</label>
-          <textarea name="message" required />
+          <div className={styles.optionContainer}>
+            <label className={styles.label}>Name</label>
+            <input className={styles.input} type="text" name="user_name" required />
+          </div>
+          <div className={styles.optionContainer}>
+            <label className={styles.label}>Email</label>
+            <input className={styles.input} type="email" name="user_email" required />
+          </div>
+          <div className={styles.optionContainer}>
+            <label className={styles.label}>Message</label>
+            <textarea className={styles.input} name="message" required />
+          </div>
           <input type="submit"  value="Send"/>
         </form>
         <div id='contact-icons'>

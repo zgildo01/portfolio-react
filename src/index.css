@@ -42,6 +42,10 @@ code {
     monospace;
 }
 
+textarea {
+  resize: none;
+}
+
 .sign {
   display: flex;
   justify-content: center;
