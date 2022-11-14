@@ -1,7 +1,7 @@
 export const projects = [{
   'title': 'Engulfment Project',
   'description': "A simple HTML/CSS/JavaScript choose your own adventure game that puts you in the role of an FBI commander surviving through an unforgiving series of choices to escape a cult.",
-  'image': '../img/engulfment-screenshot.jpg',
+  'image': '../img/engulfmentproject.png',
   'repositoryLink': 'https://github.com/zgildo01/The-Engulfment-Project',
   'deploymentLink': 'https://engulfment-project.netlify.app/'
 }, {
@@ -19,7 +19,7 @@ export const projects = [{
 }, {
   'title': 'Car Collector',
   'description': 'A simple django app with slight JavaScript functionality that allows you to have full create, read, update and delete functionality on cars you create as well as servicing lists for each car, and even car modifications!',
-  'image': '',
-  'repositoryLink': '',
-  'deploymentLink': ''
+  'image': '../img/carcollectorScreenshot.png',
+  'repositoryLink': 'https://github.com/zgildo01/car-collector',
+  'deploymentLink': 'https://zeus-car-collector.herokuapp.com/?next=/accounts/signup/'
 }]
