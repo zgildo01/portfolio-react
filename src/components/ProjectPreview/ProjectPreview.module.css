@@ -17,7 +17,7 @@
 }
 
 .btn {
-  width: 100%;
+  width: 7rem;
   height: 2rem;
   border: 0.1rem #ff65bd solid;
   background-color: black;
@@ -29,9 +29,5 @@
 }
 
 .btn:hover {
-  box-shadow: 0rem 0.25rem 1.5rem #ff65bd;
-}
-
-.btn:focus {
   box-shadow: 0rem 0.25rem 1.5rem #ff65bd;
 }
