@@ -15,12 +15,16 @@ const Dropdown = () => {
 
   return (
     <>
-      <img 
-        src="../img/dropdownPink.png"
-        alt="Dropdown menu"
-        className={styles.dropdownImg}
+      <button 
+        className={styles.dropdownBtn}
         onClick={handleClick}
-      />
+      >
+        <img 
+          src="../img/dropdownPink.png"
+          alt="Dropdown menu"
+          className={styles.dropdownImg}
+        />
+      </button>
       <div 
         style={{display: display}}
         

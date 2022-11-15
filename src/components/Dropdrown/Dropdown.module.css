@@ -1,4 +1,8 @@
+.dropdownBtn {
+  float: inline-end;
+  background-color: black;
+}
+
 .dropdownImg {
-  float: right;
   height: 3rem;
 }
