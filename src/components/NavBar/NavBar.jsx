@@ -1,5 +1,6 @@
 import styles from './NavBar.module.css'
 import { Link } from "react-router-dom";
+import Dropdown from '../Dropdrown/Dropdown';
 
 const NavBar = () => {
   return (
@@ -11,7 +12,7 @@ const NavBar = () => {
         >
           Zeus
         </Link>
-        <ul>
+        <ul className={styles.ul}>
           <li>
             <Link
               to='/about'
@@ -45,6 +46,7 @@ const NavBar = () => {
             </Link>
           </li>
         </ul>
+        <Dropdown />
       </nav>
     </>
   );

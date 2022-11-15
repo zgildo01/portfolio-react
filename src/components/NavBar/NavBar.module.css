@@ -8,23 +8,14 @@ nav {
   width: 100%;
 }
 
-ul {
+.ul {
   list-style-type: none;
 }
 
-
-li {
-  display: inline;
-  margin: 10px;
-  text-align: center;
-}
-
 .home {
-  display: block;
   margin: 1rem;
   float: left;
   color: rgba( 255 ,230 , 255, 0.8 );
-  text-decoration: none;
   font-size: 1.25rem;
   border-radius: 50%;
 }
@@ -36,12 +27,9 @@ li {
 }
 
 .link {
-  display: block;
   margin: 0 1rem;
   float: right;
   color: rgba( 255 ,230 , 255, 0.8 );
-  text-decoration: none;
-  font-size: 1.25rem;
   border-radius: 50%;
 }
 
@@ -49,4 +37,16 @@ li {
   color: rgba( 235 ,210 , 235, 1 );
   box-shadow: 0 0.25rem 5rem #ff65bd;
   background-color: rgba( 255, 101, 189, 0.1 );
+}
+
+@media (min-width: 760px) {
+  .link {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .link {
+    visibility: hidden;
+  }
 }
