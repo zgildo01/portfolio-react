@@ -2,5 +2,16 @@
   height: 100%;
   display: flex;
   align-self: center;
-  font-size: 6em;
+}
+
+@media (min-width: 760px) {
+  .main {
+    font-size: 6em;
+  }
+}
+
+@media (max-width: 360px) {
+  .main {
+    font-size: 3rem;
+  }
 }

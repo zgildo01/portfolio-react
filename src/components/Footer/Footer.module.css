@@ -12,3 +12,9 @@
   text-align: center; 
   color: rgba( 235 ,210 , 235, 1 );
 }
+
+@media (max-width: 760px) {
+  .body {
+    font-size: 0.8rem;
+  }
+}
