@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 import styles from './Dropdown.module.css'
 
 const Dropdown = () => {
-  const [display, setDisplay] = useState('none')
+  const [visibility, setVisibility] = useState('hidden')
 
   function handleClick() {
-    if (display === 'none') {
-      setDisplay('block')
+    if (visibility === 'hidden') {
+      setVisibility('visible')
     } else {
-      setDisplay('none')
+      setVisibility('hidden')
     }
   }
 
@@ -26,8 +26,8 @@ const Dropdown = () => {
         />
       </button>
       <div 
-        style={{display: display}}
-        
+        style={{visibility: visibility}}
+        className={styles.linkContainer}
       >
         <Link
           to='/about'

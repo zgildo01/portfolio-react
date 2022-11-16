@@ -1,8 +1,26 @@
 .dropdownBtn {
-  float: inline-end;
+  float: right;
   background-color: black;
 }
 
 .dropdownImg {
-  height: 3rem;
+  height: 2rem;
+  width: 2rem;
+}
+
+.linkContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  border: 0.25rem #ff65bd solid;
+}
+
+.link {
+
+}
+
+@media (min-width: 450px) {
+  .dropdownBtn {
+    visibility: hidden;
+  }
 }
