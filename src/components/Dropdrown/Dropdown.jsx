@@ -3,19 +3,19 @@ import { Link } from "react-router-dom";
 import styles from './Dropdown.module.css'
 
 const Dropdown = () => {
-  const [visibility, setVisibility] = useState('hidden')
+  const [display, setDisplay] = useState('none')
 
   function handleClick() {
-    if (visibility === 'hidden') {
-      setVisibility('visible')
+    if (display === 'none') {
+      setDisplay('inline-block')
     } else {
-      setVisibility('hidden')
+      setDisplay('none')
     }
   }
 
   return (
     <>
-      <button 
+      <button
         className={styles.dropdownBtn}
         onClick={handleClick}
       >
@@ -26,7 +26,7 @@ const Dropdown = () => {
         />
       </button>
       <div 
-        style={{visibility: visibility}}
+        style={{display: display}}
         className={styles.linkContainer}
       >
         <Link

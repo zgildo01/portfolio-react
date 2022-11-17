@@ -1,6 +1,9 @@
 .dropdownBtn {
   float: right;
   background-color: black;
+  border: none;
+  border-radius: 50rem;
+  margin-top: 0.5rem;
 }
 
 .dropdownImg {
@@ -21,6 +24,6 @@
 
 @media (min-width: 450px) {
   .dropdownBtn {
-    visibility: hidden;
+    display: none;
   }
 }

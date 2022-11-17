@@ -9,6 +9,9 @@ nav {
 }
 
 .ul {
+  display: flex;
+  flex-direction: row;
+  float: right;
   list-style-type: none;
 }
 
@@ -28,7 +31,6 @@ nav {
 
 .link {
   margin: 0 1rem;
-  float: right;
   color: rgba( 255 ,230 , 255, 0.8 );
   border-radius: 50%;
 }
@@ -46,7 +48,7 @@ nav {
 }
 
 @media (max-width: 450px) {
-  .link {
+  .ul {
     display: none;
   }
 }
