@@ -3,23 +3,27 @@
   background-color: black;
   border: none;
   border-radius: 50rem;
-  margin-top: 0.5rem;
+  margin: 0.5rem;
 }
 
 .dropdownImg {
-  height: 2rem;
-  width: 2rem;
+  height: 2.5rem;
+  width: 2.5rem;
 }
 
 .linkContainer {
-  display: flex;
-  flex-direction: column;
   background-color: black;
   border: 0.25rem #ff65bd solid;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+  height: 100%;
+  text-align: center;
 }
 
 .link {
-
+  margin: 4.75%;
+  color: rgba( 255 ,230 , 255, 0.8 );
 }
 
 @media (min-width: 450px) {
