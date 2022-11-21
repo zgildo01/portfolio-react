@@ -17,7 +17,7 @@ const About = () => {
               className={styles.pic}
             />
             <p>Zeus Zaragoza-Gildo</p>
-            <p>Full Stack Dev, Wannabe Producer, Book Hoarder, Cat Enthusiast</p>
+            <p>Full Stack Dev, Wannabe Producer, Book Hoarder, Cat Enthusiast, Lover of Self Deprecating Humor</p>
           </div>
           <hr 
             color='#ff65bd'
@@ -40,18 +40,18 @@ const About = () => {
             <div className={styles.technologies}>
               <h3>Technologies:</h3>
               <ul className={styles.ul}>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Node.js</li>
-                <li>Mongoose</li>
-                <li>MongoDB</li>
-                <li>SQL</li>
-                <li>Express</li>
-                <li>Python</li>
-                <li>React</li>
-                <li>Android Studio</li>
-                <li>Java</li>
+                <li className={styles.li}>HTML</li>
+                <li className={styles.li}>CSS</li>
+                <li className={styles.li}>JavaScript</li>
+                <li className={styles.li}>Node.js</li>
+                <li className={styles.li}>Mongoose</li>
+                <li className={styles.li}>MongoDB</li>
+                <li className={styles.li}>SQL</li>
+                <li className={styles.li}>Express</li>
+                <li className={styles.li}>Python</li>
+                <li className={styles.li}>React</li>
+                <li className={styles.li}>Android Studio</li>
+                <li className={styles.li}>Java</li>
               </ul>
               <img 
                 src="../img/waveEmoji.gif" 
