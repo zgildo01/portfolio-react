@@ -4,14 +4,15 @@
   align-self: center;
 }
 
-@media (min-width: 760px) {
+
+@media (min-width: 360px) {
   .main {
-    font-size: 6em;
+    font-size: 3rem;
   }
 }
 
-@media (max-width: 360px) {
+@media (min-width: 810px) {
   .main {
-    font-size: 3rem;
+    font-size: 7rem;
   }
 }
