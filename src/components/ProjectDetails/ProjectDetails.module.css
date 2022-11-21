@@ -1,5 +1,4 @@
 .main {
-  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,3 +35,15 @@
   height: 6rem;
 }
 
+@media (max-width: 450px) {
+  .title {
+    font-size: 3rem;
+  }
+  .aboutBody {
+    margin: 1rem;
+  }
+  .img {
+    height: 90%;
+    width: 90%;
+  }
+}
