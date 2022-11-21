@@ -39,3 +39,26 @@ img {
 .title {
   font-size: 5rem;
 }
+
+.ul {
+  list-style-type: lower-greek;
+  margin: auto;
+}
+
+@media (max-width: 450px) {
+  .title {
+    font-size: 3rem;
+  }
+  .container {
+    margin: 1rem;
+  }
+  .ul {
+    list-style-type: lower-greek;
+  }
+  .p {
+    margin: 1rem;
+  }
+  .li {
+    margin: auto;
+  }
+}
