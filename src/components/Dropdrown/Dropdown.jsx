@@ -7,7 +7,7 @@ const Dropdown = () => {
 
   function handleClick() {
     if (display === 'none') {
-      setDisplay('inline-block')
+      setDisplay('flex')
     } else {
       setDisplay('none')
     }

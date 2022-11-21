@@ -4,6 +4,7 @@
   border: none;
   border-radius: 50rem;
   margin: 0.5rem;
+  cursor: pointer;
 }
 
 .dropdownImg {
@@ -12,6 +13,7 @@
 }
 
 .linkContainer {
+  justify-self: center;
   background-color: black;
   border: 0.25rem #ff65bd solid;
   border-left: none;
@@ -22,6 +24,7 @@
 }
 
 .link {
+  align-items: center;
   margin: 4.75%;
   color: rgba( 255 ,230 , 255, 0.8 );
 }
