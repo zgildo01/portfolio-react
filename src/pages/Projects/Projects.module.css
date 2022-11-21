@@ -18,3 +18,12 @@
 .title {
   font-size: 5rem;
 }
+
+@media (max-width: 450px) {
+  .main {
+    margin: 2rem;
+  }
+  .title {
+    font-size: 3rem;
+  }
+}
