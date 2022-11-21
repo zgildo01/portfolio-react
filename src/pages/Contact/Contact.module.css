@@ -74,3 +74,12 @@
 .btn:hover {
   box-shadow: 0rem 0.25rem 1.5rem #ff65bd;
 }
+
+@media (max-width: 450px) {
+  .title {
+    font-size: 3rem;
+  }
+  .form{
+    width: 70%;
+  }
+}
